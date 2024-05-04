@@ -34,3 +34,8 @@ The movie content provided to the network is a combination of the original data 
 The user content is composed of only engineered features. A per genre average rating is computed per user. Additionally, a user id, rating count and rating average are available, but are not included in the training or prediction content. They are useful in interpreting data.
 
 The training set consists of all the ratings made by the users in the data set. The user and movie/item vectors are presented to the above network together as a training set. The user vector is the same for all the movies rated by the user. 
+
+
+#### Reference
+
+Machine-Learning-Specialization-Coursera (#https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera)
