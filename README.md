@@ -20,7 +20,7 @@ In this exercise, you will implement content-based filtering using a neural netw
 
 
 
-## 3 - Content-based filtering with a neural network
+## Intro - Content-based filtering with a neural network
 
 There are two types of `Recommendation system`
 1. Collaborative filtering
