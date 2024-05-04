@@ -1,11 +1,6 @@
-# Movie-Recommender
+# <img align="left" src="./images/movie_camera.png"     style=" width:40px;  " >  Movie-Recommender
 
-In this project, we will see implementation of recommendation algorithm for content filtering
-
-# <img align="left" src="./images/movie_camera.png"     style=" width:40px;  " > Movie Recommender Systems
-
-
-In this exercise, you will implement content-based filtering using a neural network to build a recommender system for movies. 
+In this project, we will see implementation of recommendation algorithm for content filtering 
 
 # Outline <img align="left" src="./images/film_reel.png"     style=" width:40px;  " >
 - [ 1 - Packages](#1)
