@@ -38,4 +38,4 @@ The training set consists of all the ratings made by the users in the data set. 
 
 #### Reference
 
-Machine-Learning-Specialization-Coursera (#https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera)
+[Machine-Learning-Specialization-Coursera] (https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera)
