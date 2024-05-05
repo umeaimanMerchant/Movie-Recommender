@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Recommender</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Movie Recommender</h1>
+    <form id="movieForm">
+        <div id="part1" style="display: block;">
+            <h2>Select Genre Ratings (1/3)</h2>
+            <div id="genreSelection1">
+                <div class="form-group">
+                    <label for="new_action">Action:</label>
+                    <select id="new_action" name="new_action">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="new_adventure">Adventure:</label>
+                    <select id="new_adventure" name="new_adventure">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="new_animation">Animation:</label>
+                    <select id="new_animation" name="new_animation">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="new_childrens">Children's:</label>
+                    <select id="new_childrens" name="new_childrens">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="new_comedy">Comedy:</label>
+                    <select id="new_comedy" name="new_comedy">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+            <button type="button" onclick="nextPart(1)">Next</button>
+        </div>
+
+        <div id="part2" style="display: none;">
+            <h2>Select Genre Ratings (2/3)</h2>
+            <div id="genreSelection2">
+                <div class="form-group">
+                    <label for="new_crime">Crime:</label>
+                    <select id="new_crime" name="new_crime">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="new_documentary">Documentary:</label>
+                    <select id="new_documentary" name="new_documentary">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="new_drama">Drama:</label>
+                    <select id="new_drama" name="new_drama">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="new_fantasy">Fantasy:</label>
+                    <select id="new_fantasy" name="new_fantasy">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="new_horror">Horror:</label>
+                    <select id="new_horror" name="new_horror">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+            <button type="button" onclick="nextPart(2)">Next</button>
+        </div>
+        <div id="part3" style="display: none;">
+            <h2>Select Genre Ratings (3/3)</h2>
+            <div id="genreSelection3">
+                <div class="form-group">
+                    <label for="new_mystery">Mystery:</label>
+                    <select id="new_mystery" name="new_mystery">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="new_romance">Romance:</label>
+                    <select id="new_romance" name="new_romance">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="new_scifi">Sci-Fi:</label>
+                    <select id="new_scifi" name="new_scifi">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="new_thriller">Thriller:</label>
+                    <select id="new_thriller" name="new_thriller">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+            
+        </div>
+        <br>
+        <button type="button" id="submitButton" onclick="submitForm()">Submit</button>
+    </form>
+
+    <div id="responseContainer"></div>
+    <button id="restartButton" style="display: none;" onclick="restartApp()">Restart</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
