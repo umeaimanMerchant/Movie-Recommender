@@ -1,11 +1,6 @@
-# Movie-Recommender
+# <img align="left" src="./images/movie_camera.png"     style=" width:40px;  " >  Movie-Recommender
 
-In this project, we will see implementation of recommendation algorithm for content filtering
-
-# <img align="left" src="./images/movie_camera.png"     style=" width:40px;  " > Movie Recommender Systems
-
-
-In this exercise, you will implement content-based filtering using a neural network to build a recommender system for movies. 
+In this project, we will see implementation of recommendation algorithm for content filtering 
 
 # Outline <img align="left" src="./images/film_reel.png"     style=" width:40px;  " >
 - [ 1 - Packages](#1)
@@ -40,4 +35,7 @@ The user content is composed of only engineered features. A per genre average ra
 
 The training set consists of all the ratings made by the users in the data set. The user and movie/item vectors are presented to the above network together as a training set. The user vector is the same for all the movies rated by the user. 
 
-Below, let's load and display some of the data.
+
+#### Reference
+
+[Machine-Learning-Specialization-Coursera](https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera)
