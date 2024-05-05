@@ -12,7 +12,7 @@ In this project, we will see implementation of recommendation algorithm for cont
     - [ 6.1 Prediction for New User](#6.1)
     - [ 6.2 Finding Similar Items](#6.2)
 - [ 7 - Model Evaluation](#7)
-
+- [ 8 - Model Deployment](#)
 
 
 ## Intro - Content-based filtering with a neural network
@@ -40,18 +40,18 @@ The training set consists of all the ratings made by the users in the data set. 
 
 #### Select the genre
 <figure>
-    <center> <img src="./images/Part1.png"   style="width:500px;height:280px;" ></center>
+    <center> <img src="./images/Part1.png"   style="width:500px;height:380px;" ></center>
 </figure>
 <figure>
-    <center> <img src="./images/Part2.png"   style="width:500px;height:280px;" ></center>
+    <center> <img src="./images/Part2.png"   style="width:500px;height:380px;" ></center>
 </figure>
 <figure>
-    <center> <img src="./images/Part3.png"   style="width:500px;height:280px;" ></center>
+    <center> <img src="./images/Part3.png"   style="width:500px;height:380px;" ></center>
 </figure>
 
 #### Recommendations
 <figure>
-    <center> <img src="./images/output.png"   style="width:500px;height:280px;" ></center>
+    <center> <img src="./images/output.png"   style="width:500px;height:380px;" ></center>
 </figure>
 
 #### Reference
