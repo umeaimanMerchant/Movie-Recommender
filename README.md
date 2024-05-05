@@ -35,6 +35,24 @@ The user content is composed of only engineered features. A per genre average ra
 
 The training set consists of all the ratings made by the users in the data set. The user and movie/item vectors are presented to the above network together as a training set. The user vector is the same for all the movies rated by the user. 
 
+## Deployment
+- User can interact with the app using flask api.
+
+#### Select the genre
+<figure>
+    <center> <img src="./images/Part1.png"   style="width:500px;height:280px;" ></center>
+</figure>
+<figure>
+    <center> <img src="./images/Part2.png"   style="width:500px;height:280px;" ></center>
+</figure>
+<figure>
+    <center> <img src="./images/Part3.png"   style="width:500px;height:280px;" ></center>
+</figure>
+
+#### Recommendations
+<figure>
+    <center> <img src="./images/output.png"   style="width:500px;height:280px;" ></center>
+</figure>
 
 #### Reference
 
